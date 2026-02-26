@@ -37,5 +37,72 @@ We have the following:
     </a>
 
 
+## Order of operations
+
+There is a way to use grid before your card modifiers
+- They continued to be nested. Grid always goes on the outside of card.
+
+<section class="menu">
+  <h2>Menu</h2>
+  <div class="grid">
+    <a href="#cakes" class="btn">Cakes</a>
+
+    or
+
+<section id="pastries">
+  <div class="grid">
+    <article class="card"></article>
+  </div>
+</section>
+
+
 ## HTML Attributes
  `rel` - Defines the relationship between a linked resource and the current document. 
+
+ ## Removal code I am saving
+
+   <!-- <div class="card">Cakes</div> -->
+  <!--- <div class="card">Cupcakes</div> -->
+   <!--- <div class="card">Cookies</div>
+    <div class="card">Chocolate</div>
+    <div class="card">Pastries</div>
+    <div class="card">Other</div>-->
+
+
+
+--------
+<section class="fast-sellers">
+    <h2>Fast Sellers</h2>
+
+    <div class="grid">
+
+      <article class="card">
+        <img src="images/Other/Yogurt_Cups.jpg" alt="Yogurt Cups">
+        <h3>Yogurt & Fruit Cups - Real mixed berries</h3>
+        <p class="price">$15.00</p>
+      </article>
+
+      <article class="card">
+        <img src="images/cakes/No-bake-cheesecake_8.jpg" alt="Cheesecake">
+        <h3>Multi-Flavor; No-Bake Cheesecake
+          <p>$12.99</p>
+        </h3>
+      </article>
+
+      <article class="card">
+        <img src="images/Other/tamales.jpg" alt="Tamales">
+        <h3>Traditional Tamales - Beef or Chicken
+          <p>$19.99</p>
+        </h3>
+      </article>
+
+      <article class="card">
+        <img src="images/Other/Dubai-chocolate-recipe-19-scaled.jpg" alt="Dubai Chocolate">
+        <h3>Rich and flaky Dubai Chocolate - Pistaccio flavored
+          <p>$30.00</p>
+        </h3>
+      </article>
+
+    </div>
+</section>
+------
