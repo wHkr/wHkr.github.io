@@ -73,6 +73,34 @@ There is a way to use grid before your card modifiers
 <footer>Same Footer</footer>
 
 
+------
+Basically what my index.html looks like, minus a few functions
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>{{ site.title }}</h1>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  <p>© 2026 {{ site.title }}</p>
+</footer>
+
+</body>
+</html>
+
+
  ## Removal code I am saving
 
    <!-- <div class="card">Cakes</div> -->
