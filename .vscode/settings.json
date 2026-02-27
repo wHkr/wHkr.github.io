@@ -1,3 +1,9 @@
 {
-    "notebook.editorOptionsCustomizations": {}
+    "notebook.editorOptionsCustomizations": {},
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, 'JetBrainsMono Nerd Font','FiraCode Nerd Font Mono'",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "liveServer.settings.multiRootWorkspaceName": "wHkr.github.io",
+    "workbench.externalBrowser": "\"C:\\Users\\aaron\\scoop\\apps\\firefox-developer\\current\\firefox.exe\"",
+    "workbench.iconTheme": "vs-seti"
 }
