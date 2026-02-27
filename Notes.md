@@ -59,6 +59,20 @@ There is a way to use grid before your card modifiers
 ## HTML Attributes
  `rel` - Defines the relationship between a linked resource and the current document. 
 
+ ## index.html structuring
+ - Copy and paste the following html into the .html folders. This will ensure they all share the smae architecture.
+ This will be easier to scale if  angie decides to get a better website development software.
+
+ <header>Same Nav</header>
+<main>
+  <h1>Cakes</h1>
+  <div class="grid">
+    <article class="card">...</article>
+  </div>
+</main>
+<footer>Same Footer</footer>
+
+
  ## Removal code I am saving
 
    <!-- <div class="card">Cakes</div> -->
@@ -67,8 +81,6 @@ There is a way to use grid before your card modifiers
     <div class="card">Chocolate</div>
     <div class="card">Pastries</div>
     <div class="card">Other</div>-->
-
-
 
 --------
 <section class="fast-sellers">
