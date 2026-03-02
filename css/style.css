@@ -109,14 +109,16 @@ footer {
   margin-bottom: 10px;
 }
 
+/*
 @media (max-width: 600px) {
   .card {
     padding: 12px;
     font-size: 14px;
   }
-
+  
   .card img {
     height: 150px;
     object-fit: cover;
   }
 }
+ */
