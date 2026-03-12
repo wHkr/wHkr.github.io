@@ -55,6 +55,28 @@ section{
   border-radius:25px;
 }
 
+.sticky-order{     /*Makes order now button visible at all times*/
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background:#e76f51;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-weight:bold;
+  text-decoration:none;
+  display:none;
+}
+
+@media (max-width:768px){
+
+.sticky-order{
+  display:block;
+}
+
+}
+
 /* ---------- Product Grid ---------- */
 
 .grid{
@@ -71,11 +93,14 @@ section{
   border-radius:10px;
   padding:20px;
   box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:all 0.3s ease;
+  cursor:pointer;
   transition:transform 0.2s;
 }
 
 .card:hover{
-  transform:translateY(-5px);
+  transform:translateY(-10px) scale(1.02);
+  box-shadow:0 12px 25px rgba(0,0,0,0.2);
 }
 
 /* ---------- Images ---------- */
