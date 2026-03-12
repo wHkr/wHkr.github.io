@@ -34,6 +34,9 @@ section{
   color:white;
   background-color:rgba(0,0,0,0.4);
   background-blend-mode:multiply;
+  background-image:url("../images/hero.jpg");
+  background-size:cover;
+  background-position:center;
 }
 
 .hero h1{
