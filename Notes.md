@@ -146,3 +146,142 @@ Basically what my index.html looks like, minus a few functions
     </div>
 </section>
 ------
+
+
+
+//// Original css///
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.description {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+body {
+  font:  1.2em sans-serif; /*New*/
+  background: #fff8f3;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px; /*12,24*/
+  background: #e76f51;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px; /*30*/
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid; /*flex;,grid*/
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.card {
+  border: 1px solid #999999;
+  border-radius: 10px;
+  text-align: center;
+  background: white;
+  margin: 1em auto;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 350px;
+}
+
+/*.card {
+  border: 1px solid #999999;
+  border-radius: 10px;
+  display: grid;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  grid-gap: 20px;
+  background: white;
+  margin: 1em auto;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+*/
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 20px;
+  background: #e76f51;
+  color: white;
+}
+
+.error-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error-page h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+}
